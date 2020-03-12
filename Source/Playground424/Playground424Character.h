@@ -29,6 +29,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	/* petit ajout pour tester le bousin avec visual studio code */
+	UPROPERTY(EditAnywhere,  Category = "Customs")
+		FName CharacterName;
+
 protected:
 
 	/** Resets HMD orientation in VR. */
